@@ -14,13 +14,13 @@
         <nav>
           <ol>
             <li>
-              <a href="#">Portafolio</a>
+              <a href="#portafolio">Portafolio</a>
             </li>
             <li>
-              <a href="#">Experiencia</a>
+              <a href="#cursos">Preparación</a>
             </li>
             <li>
-              <a href="#">Trabajemos juntos</a>
+              <a href="#contacto">Trabajemos juntos</a>
             </li>
           </ol>
         </nav>
@@ -39,7 +39,7 @@
         alt="Imagen principal del sitio"
       />
     </section>
-    <section>
+    <section id="portafolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article>
         <h3>Mi primera página Web</h3>
@@ -57,7 +57,7 @@
         </p>
       </article>
     </section>
-    <section>
+    <section id="cursos">
       <h2>Cursos desarrollados</h2>
       <article>
         <figure>
@@ -72,7 +72,10 @@
           Curso indispensable para conocer los principios y bases de la
           Ingeniería de Software.
         </p>
-        <a href="#">Ver Certificado</a>
+        <a
+          href="https://platzi.com/@kefrari27/curso/1098-ingenieria/diploma/detalle/"
+          >Ver Certificado</a
+        >
       </article>
       <article>
         <figure>
@@ -89,10 +92,19 @@
           más importantes, establecer un flujo de trabajo colaborativo y
           profesional.
         </p>
-        <a href="#">Ver Certificado</a>
+        <a
+          href="https://platzi.com/@kefrari27/curso/1557-git-github/diploma/detalle/"
+          >Ver Certificado</a
+        >
       </article>
     </section>
-    <section>Sección contactos</section>
+    <section id="contacto">
+      <form action="/suscripcion/">
+        <h3>¿Creamos algo juntos?</h3>
+        <input type="text" placeholder="Déjame tu email" />
+        <button>Enviar</button>
+      </form>
+    </section>
     <footer>pie de pagina</footer>
   </body>
 </html>
