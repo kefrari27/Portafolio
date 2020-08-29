@@ -4,29 +4,30 @@
     <meta charset="UTF-8" />
     <title>Portafolio Kevin Franco Ricardo</title>
     <link rel="icon" type="Image/png" href="Img/Favicon.png" />
+    <link rel="stylesheet" href="CSS/estilos.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div>
-        <figure>
+        <figure class="logo">
           <img src="Img/Logo_KFR.png" alt="Logo KFR" />
         </figure>
-        <nav>
+        <nav class="menu">
           <ol>
             <li>
-              <a href="#portafolio">Portafolio</a>
+              <a class="link" href="#portafolio">Portafolio</a>
             </li>
             <li>
-              <a href="#cursos">Preparación</a>
+              <a class="link" href="#cursos">Preparación</a>
             </li>
             <li>
-              <a href="#contacto">Trabajemos juntos</a>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
             </li>
           </ol>
         </nav>
       </div>
     </header>
-    <section>
+    <section class="hero">
       <h1>
         Hola! Soy <strong>Kevin Franco Ricardo</strong>,<br />
         <strong>Desarrollador Web</strong> en formación y <br />
@@ -39,18 +40,18 @@
         alt="Imagen principal del sitio"
       />
     </section>
-    <section id="portafolio">
+    <section id="portafolio" class="portafolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
-      <article>
-        <h3>Mi primera página Web</h3>
-        <h6>HTML / CSS</h6>
-        <p>
+      <article class="proyecto">
+        <h3 class="proyecto-titulo">Mi primera página Web</h3>
+        <h6 class="proyecto-temas">HTML / CSS</h6>
+        <p class="proyecto-fecha">
           <small><strong>Fecha:</strong> 27/08/2020</small>
         </p>
-        <p>
+        <p class="proyecto-url">
           <small><strong>Puedes verlo en:</strong>#</small>
         </p>
-        <p>
+        <p class="proyecto-descripcion">
           El proyecto llamado "Portafolio" es la primera página web que he
           diseñado en el marco del curso de Desarrollo Web Online dictado por el
           profesor Leonidas Esteban en Platzi.
@@ -59,52 +60,46 @@
     </section>
     <section id="cursos">
       <h2>Cursos desarrollados</h2>
-      <article>
-        <figure>
-          <img
+      <article class="curso">
+        <figure class="curso-imageContainer">
+          <img class="curso-imagen"
             src="Img/Fundamentos_ing_software.jpg"
             width="300"
             alt="Imagen alusiva del curso"
           />
         </figure>
-        <h3>Fundamentos de Ingeniería de Software</h3>
-        <p>
+        <h3 class="curso-titulo">Fundamentos de Ingeniería de Software</h3>
+        <p class="curso-descripcion">
           Curso indispensable para conocer los principios y bases de la
           Ingeniería de Software.
         </p>
-        <a
-          href="https://platzi.com/@kefrari27/curso/1098-ingenieria/diploma/detalle/"
-          >Ver Certificado</a
-        >
+        <a class="curso-url" href="https://platzi.com/@kefrari27/curso/1098-ingenieria/diploma/detalle/">Ver Certificado</a>
       </article>
-      <article>
-        <figure>
-          <img
+      <article class="curso">
+        <figure class="curso-imageContainer">
+          <img class="curso-imagen"
             src="Img/Git_GitHub.png"
             width="400"
             alt="Imagen representativa del curso"
           />
         </figure>
-        <h3>Git y GiHub</h3>
-        <p>
+        <h3 class="curso-titulo">Git y GitHub</h3>
+        <p class="curso-descripcion">
           Curso definitivo para conocer todo sobre Git y GitHub, como hacer
           repositorios locales y remotos, aprender los comandos más utilizados y
           más importantes, establecer un flujo de trabajo colaborativo y
           profesional.
         </p>
-        <a
-          href="https://platzi.com/@kefrari27/curso/1557-git-github/diploma/detalle/"
-          >Ver Certificado</a
-        >
+        <a class="curso-url" href="https://platzi.com/@kefrari27/curso/1557-git-github/diploma/detalle/">Ver Certificado</a>
       </article>
     </section>
-    <section id="contacto">
-      <form action="/suscripcion/">
+    <section id="contacto" class="contacto">
+      <form action="/suscripcion/" class="form-email">
         <h3>¿Creamos algo juntos?</h3>
         <input type="text" placeholder="Déjame tu email" />
         <button>Enviar</button>
       </form>
     </section>
-    <footer>pie de pagina</footer>
+    <footer class="pie">pie de pagina</footer>
   </body>
 </html>
