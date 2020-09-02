@@ -13,25 +13,58 @@ h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.5;
   font-weight: normal;
   letter-spacing: -.2px;
   color: #ffffff;
+  height: 300px;
+  text-align: start;
+  padding: 30px 30px;
+  margin: 0;
 }
 
 h1 strong {
   color: #026fff;
 }
 
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .header {
   background-color: #ffffff;
   color: #1b2127;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
 }
 
 .header a {
   color: #1b2127;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.menu {
+  height: inherit;
 }
 
 .hero {
@@ -40,20 +73,48 @@ h1 strong {
   background-color: #1b2127;
   background-size: 200px 300px;
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position-x: right;
+  display: flex;
+  align-items: center;
+
 }
 
 .portafolio {
   background: #fafafa;
+  padding: 20px;
 }
 
 .proyecto {
   border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 15px;
-  margin: 10px;
   padding: 20px;
   background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.proyecto-titulo {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.proyecto-temas {
+  margin: 10px 0;
+}
+
+.proyecto-fecha {
+  margin: 10px 0;
+}
+
+.proyecto-descripcion {
+  font-size: 20px;
+}
+
+.proyecto strong {
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .proyecto-detalles {
@@ -62,4 +123,23 @@ h1 strong {
 
 .proyecto-imageContainer {
   width: 500px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.pie {
+  background-color: #1b2127;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
