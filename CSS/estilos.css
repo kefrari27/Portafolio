@@ -143,3 +143,47 @@ figure {
   align-items: center;
   justify-content: space-between;
 }
+
+.cursos {
+  display: flex;
+}
+
+.cursos-titulos {
+  margin-left: 10px;
+}
+
+.curso {
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f4fbff;
+}
+
+.curso img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.curso-detalle {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: #ffffff;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.curso-descripcion {
+  text-align: left;
+}
+
+.curso-url {
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
