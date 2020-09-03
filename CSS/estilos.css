@@ -69,14 +69,10 @@ h2 {
 
 .hero {
   height: 300px;
-  background-image: url('../Img/Foto_hero.jpg');
   background-color: #1b2127;
-  background-size: 200px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
 }
 
 .portafolio {
@@ -146,6 +142,7 @@ figure {
 
 .cursos {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .cursos-titulos {
@@ -186,4 +183,73 @@ figure {
   padding: 5px 20px;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.contacto {
+  background-color: #056fff;
+  color: #ffffff;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 10px;
+}
+
+.social-link.github {
+  background-image: url('../Img/GitHub.png');
+}
+
+.social-link.linkedin {
+  background-image: url('../Img/Linkedin.png');
+}
+
+.social-link.facebook {
+  background-image: url('../Img/Facebook.png');
+}
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../Img/correo.png');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: #ffffff;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px 0; 
+}
+
+.form-email h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }

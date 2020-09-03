@@ -9,97 +9,111 @@
   </head>
   <body>
     <header class="header">
-      <figure class="logo">
+      <div class="container">
+        <figure class="logo">
         <img src="Img/Logo_KFR.png" alt="Logo KFR" height="50px"/>
-      </figure>
-      <nav class="menu">
-        <ol>
-          <li>
-            <a class="link" href="#portafolio">Portafolio</a>
-          </li>
-          <li>
-            <a class="link" href="#cursos">Preparación</a>
-          </li>
-          <li>
-            <a class="link" href="#contacto">Trabajemos juntos</a>
-          </li>
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#cursos">Preparación</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
         </ol>
       </nav>
+      </div>
     </header>
     <section class="hero">
-      <h1>
+      <div class="container">
+         <h1>
         Hola! Soy <strong>Kevin Franco Ricardo</strong>,<br />
         <strong>Desarrollador Web</strong> en formación y <br />
         un apasionado de la tecnología y <br />
         las herramientas digitales.
       </h1>
+      <img class="hero-img" src="img/Foto_hero.jpg" width="200" height="300" alt="Imagen principal" />
+      </div>
     </section>
     <section id="portafolio" class="portafolio">
-      <h2>Portafolio (Proyectos Destacados)</h2>
-      <article class="proyecto">
-        <div class="proyecto-detalles">
-          <h3 class="proyecto-titulo">Mi primera página Web</h3>
-          <h6 class="proyecto-temas">HTML / CSS</h6>
-          <p class="proyecto-fecha">
-          <small><strong>Fecha:</strong> 27/08/2020</small>
-          </p>
-          <p class="proyecto-descripcion">
-          El proyecto llamado "Portafolio" es la primera página web que he
-          diseñado en el marco del curso de Desarrollo Web Online dictado por el
-          profesor Leonidas Esteban en Platzi.
-          </p>
-        </div>
-        <figure class="proyecto-imageContainer">
-          <img class="proyecto-imagen" width="500" src="#" />
-        </figure>
-      </article>
+      <div class="container">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="proyecto">
+          <div class="proyecto-detalles">
+            <h3 class="proyecto-titulo">Mi primera página Web</h3>
+            <h6 class="proyecto-temas">HTML / CSS</h6>
+            <p class="proyecto-fecha">
+            <small><strong>Fecha:</strong> 27/08/2020</small>
+            </p>
+            <p class="proyecto-descripcion">
+            El proyecto llamado "Portafolio" es la primera página web que he
+            diseñado en el marco del curso de Desarrollo Web Online dictado por el
+            profesor Leonidas Esteban en Platzi.
+            </p>
+          </div>
+          <figure class="proyecto-imageContainer">
+            <img class="proyecto-imagen" width="500" src="#" />
+          </figure>
+        </article>
+      </div>
     </section>
-    <h2 class="cursos-titulos">Cursos desarrollados</h2>
-    <section id="cursos" class="cursos">
-      <article class="curso">
-        <figure class="curso-imageContainer">
-          <img class="curso-imagen"
-            src="Img/Fundamentos_ing_software.jpg"
-            width="300"
-            alt="Imagen alusiva del curso"
-          />
-        </figure>
-        <div class="curso-detalle">
-          <h3 class="curso-titulo">Fundamentos de Ingeniería de Software</h3>
-          <p class="curso-descripcion">
-          Curso indispensable para conocer los principios y bases de la
-          Ingeniería de Software.
-          </p>
-          <a class="curso-url" href="https://platzi.com/@kefrari27/curso/1098-ingenieria/diploma/detalle/">Ver Certificado</a>
+    <div class="container">
+      <h2 class="cursos-titulos">Cursos desarrollados</h2>
+      <section id="cursos" class="cursos">
+        <article class="curso">
+          <figure class="curso-imageContainer">
+            <img class="curso-imagen"
+              src="Img/Fundamentos_ing_software.jpg"
+              width="300"
+              alt="Imagen alusiva del curso"
+            />
+          </figure>
+          <div class="curso-detalle">
+            <h3 class="curso-titulo">Fundamentos de Ingeniería de Software</h3>
+            <p class="curso-descripcion">
+            Curso indispensable para conocer los principios y bases de la
+            Ingeniería de Software.
+            </p>
+            <a class="curso-url" href="https://platzi.com/@kefrari27/curso/1098-ingenieria/diploma/detalle/">Ver Certificado</a>
+          </div>
+        </article>
+        <article class="curso">
+          <figure class="curso-imageContainer">
+            <img class="curso-imagen"
+              src="Img/Git_GitHub.png"
+              width="400"
+              alt="Imagen representativa del curso"
+            />
+          </figure>
+          <div class="curso-detalle">
+            <h3 class="curso-titulo">Git y GitHub</h3>
+            <p class="curso-descripcion">
+            Curso definitivo para conocer todo sobre Git y GitHub, como hacer
+            repositorios locales y remotos, aprender los comandos más utilizados y
+            más importantes, establecer un flujo de trabajo colaborativo y
+            profesional.
+            </p>
+            <a class="curso-url" href="https://platzi.com/@kefrari27/curso/1557-git-github/diploma/detalle/">Ver Certificado</a>
+          </div>
+        </article>
+      </section>
+      <section id="contacto" class="contacto">
+        <form action="/suscripcion/" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Déjame tu email" />
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://github.com/kefrari27" class="social-link github"></a>
+          <a href="https://www.linkedin.com/in/kevin-franco-ricardo-4a16505a/" class="social-link linkedin"></a>
+          <a href="https://www.facebook.com/kefrari" class="social-link facebook"></a>
         </div>
-      </article>
-      <article class="curso">
-        <figure class="curso-imageContainer">
-          <img class="curso-imagen"
-            src="Img/Git_GitHub.png"
-            width="400"
-            alt="Imagen representativa del curso"
-          />
-        </figure>
-        <div class="curso-detalle">
-          <h3 class="curso-titulo">Git y GitHub</h3>
-          <p class="curso-descripcion">
-          Curso definitivo para conocer todo sobre Git y GitHub, como hacer
-          repositorios locales y remotos, aprender los comandos más utilizados y
-          más importantes, establecer un flujo de trabajo colaborativo y
-          profesional.
-          </p>
-          <a class="curso-url" href="https://platzi.com/@kefrari27/curso/1557-git-github/diploma/detalle/">Ver Certificado</a>
-        </div>
-      </article>
-    </section>
-    <section id="contacto" class="contacto">
-      <form action="/suscripcion/" class="form-email">
-        <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Déjame tu email" />
-        <button>Enviar</button>
-      </form>
-    </section>
+      </section>
+    </div>
     <footer class="pie">
       <div>
         <p>Curso de Desarrollo Web Online</p>
