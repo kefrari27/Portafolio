@@ -194,10 +194,6 @@ figure {
   justify-content: space-between;
 }
 
-.social {
-
-}
-
 .social-link {
   display: inline-block;
   width: 50px;
@@ -211,11 +207,11 @@ figure {
 }
 
 .social-link.linkedin {
-  background-image: url('../Img/Linkedin.png');
+  background-image: url('../Img/linkedin.png');
 }
 
 .social-link.facebook {
-  background-image: url('../Img/Facebook.png');
+  background-image: url('../Img/logo_facebook.png');
 }
 
 .form-email input {
