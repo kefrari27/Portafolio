@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto', 'Sans-Serif';
   margin: 0;
-  background-color: ;
 }
 
 h1, 
@@ -277,4 +276,8 @@ figure {
 .container-contacto {
   width: auto;
   background-color: #0579CC;
+}
+
+.pie a {
+  color: #ffffff;
 }
