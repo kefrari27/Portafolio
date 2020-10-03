@@ -56,6 +56,7 @@ h2 {
 
 .header a {
   color: #0579CC;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   height: inherit;
@@ -66,6 +67,11 @@ h2 {
 
 .menu {
   height: inherit;
+}
+
+.menu a:hover {
+  color: #04113b;
+  font-size: 22px;
 }
 
 .hero {
@@ -80,6 +86,11 @@ h2 {
 .hero-img {
   border-radius: 10px;
 }
+
+.hero-img:hover {
+  width: 250px;
+  height: 350px;
+} 
 
 .portafolio {
   padding: 20px;
@@ -195,6 +206,15 @@ figure {
   text-align: center;
 }
 
+.curso-detalle a:hover {
+  background-color: #04113b;
+}
+
+.curso-detalle a:active {
+  background-color: #0579CC;
+  color: #04113b;
+}
+
 .curso-descripcion {
   text-align: left;
 }
@@ -237,6 +257,12 @@ figure {
   background-image: url('../Img/logo_facebook.png');
 }
 
+.social a:hover {
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+
 .form-email input {
   border-color: gray;
   border-style: solid;
@@ -257,6 +283,15 @@ figure {
   width: 100px;
   border-radius: 5px;
   padding: 10px 0; 
+}
+
+.form-email button:hover {
+  background-color: #04113b;
+}
+
+.form-email button:active {
+  background-color: #ffffff;
+  color: #0579CC;
 }
 
 .form-email h3 {
@@ -280,4 +315,9 @@ figure {
 
 .pie a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+.pie a:hover {
+  color: #98CA3F;
 }
