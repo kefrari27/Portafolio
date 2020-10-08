@@ -1,5 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-1: #0579CC;
+  --color-2: #04113b;
+  --color-3: #ffffff;
+  --color-4: #0d1a27;
+  --color-5: #98CA3F;
+  --color-6: #808080;
+  --letra-1: 'Grandstander', 'Sans-Serif';
+  --letra-2: 'Roboto', 'Sans-Serif';
+}
+
 body {
-  font-family: 'Roboto', 'Sans-Serif';
+  font-family: var(--letra-2);
   margin: 0;
 }
 
@@ -9,39 +30,39 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Grandstander', 'Sans-Serif';
+  font-family: var(--letra-1);
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 4rem;
   line-height: 1.5;
   font-weight: normal;
   letter-spacing: -.2px;
-  color: #ffffff;
-  height: 300px;
+  color: var(--color-3);
+  height: 30rem;
   text-align: start;
-  padding: 30px 30px;
+  padding: 3rem 3rem;
   margin: 0;
 }
 
 h1 strong {
-  color: #04113b;
+  color: var(--color-2);
 }
 
 h2 {
-  color: #04113b;
+  color: var(--color-2);
   text-transform: uppercase;
   font-family: 'Grandstander', sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .header {
-  background-color: #ffffff;
-  color: #04113b;
+  background-color: var(--color-3);
+  color: var(--color-2);
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 7rem;
   align-items: center;
 }
 
@@ -55,14 +76,14 @@ h2 {
 }
 
 .header a {
-  color: #0579CC;
-  font-size: 18px;
+  color: var(--color-1);
+  font-size: 1.8rem;
   font-weight: bold;
   text-decoration: none;
   height: inherit;
   display: flex;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 1rem;
 }
 
 .menu {
@@ -70,63 +91,63 @@ h2 {
 }
 
 .menu a:hover {
-  color: #04113b;
-  font-size: 22px;
+  color: var(--color-2);
+  font-size: 2.2rem;
 }
 
 .hero {
-  height: 300px;
-  background-color: #0579CC;
+  height: 30rem;
+  background-color: var(--color-1);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0 20px 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .hero-img {
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .hero-img:hover {
-  width: 250px;
-  height: 350px;
+  width: 25rem;
+  height: 35rem;
 } 
 
 .portafolio {
-  padding: 20px;
+  padding: 2rem;
 }
 
 .proyecto {
-  border: 2px solid #0579CC;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  padding: 20px;
-  background: #0579CC;
+  border: 0.2rem solid var(--color-1);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  background: var(--color-1);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .proyecto-titulo {
-  color: #04113b;
-  font-size: 25px;
+  color: var(--color-2);
+  font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .proyecto-temas {
-  color: #04113b;
-  margin: 10px 0;
+  color: var(--color-2);
+  margin: 1rem 0;
 }
 
 .proyecto-fecha {
-  color: #04113b;
-  margin: 10px 0;
+  color: var(--color-2);
+  margin: 1rem 0;
 }
 
 .proyecto-descripcion {
-  color: #04113b;
-  font-size: 20px;
+  color: var(--color-2);
+  font-size: 2rem;
 }
 
 .proyecto strong {
@@ -134,21 +155,21 @@ h2 {
 }
 
 .proyecto-detalles {
-  background-color: #ffffff;
-  width: 500px;
-  border: 1px solid #0579CC;
-  border-radius: 5px;
-  padding: 10px 10px;
+  background-color: var(--color-3);
+  width: 50rem;
+  border: 0.1rem solid var(--color-1);
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
 }
 
 .proyecto-imageContainer {
-  width: 520px;
-  height: 300px;
-  margin: 10px;
+  width: 52rem;
+  height: 30rem;
+  margin: 1rem;
 }
 
 .proyecto-imagen {
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 ol,
@@ -163,11 +184,13 @@ figure {
 }
 
 .pie {
-  background-color: #0d1a27;
-  color: #ffffff;
+  background-color: var(--color-4);
+  color: var(--color-3);
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-size: 1.4rem;
+  padding: 1rem 0;
 }
 
 .cursos {
@@ -176,73 +199,88 @@ figure {
 }
 
 .cursos-titulos {
-  margin-left: 10px 0 0 0;
+  margin-left: 1rem 0 0 0;
 }
 
 .curso {
-  border: 2px solid #0579CC;
-  margin: 20px;
-  width: 450px;
+  border: 0.2rem solid var(--color-1);
+  margin: 2rem;
+  width: 45rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   overflow: hidden;
-  background-color: #0579CC;
+  background-color: var(--color-1);
 }
 
 .curso img {
-  width: 480px;
-  height: 200px;
+  width: 48rem;
+  height: 20rem;
   object-fit: cover;
 }
 
 .curso-detalle {
-  border: 1px solid #0579CC;
-  border-radius: 5px;
-  margin: 20px 40px;
-  margin-top: -40px;
-  background-color: #ffffff;
+  border: 0.1rem solid var(--color-1);
+  border-radius: 0.5rem;
+  margin: 2rem 4rem;
+  margin-top: -4rem;
+  background-color: var(--color-3);
   position: relative;
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
 }
 
+.curso-detalle a {
+  font-size: 1.6rem;
+}
+
 .curso-detalle a:hover {
-  background-color: #04113b;
+  background-color: var(--color-2);
 }
 
 .curso-detalle a:active {
-  background-color: #0579CC;
-  color: #04113b;
+  background-color: var(--color-1);
+  color: var(--color-2);
+}
+
+.curso-titulo {
+  font-size: 2.4rem;
 }
 
 .curso-descripcion {
-  text-align: left;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 2rem 0;
 }
 
 .curso-url {
-  color: #056fff;
-  border: 1px solid;
-  padding: 5px 20px;
+  color: var(--color-1);
+  border: 0.1rem solid;
+  padding: 0.5rem 2rem;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .contacto {
-  color: #ffffff;
-  width: 1000px;
-  height: 150px;
-  margin: 0 180px;
+  color: var(--color-3);
+  width: 100rem;
+  height: 15rem;
+  margin: 0 18rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.contacto h3 {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
 .social-link {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-size: 50px 50px;
-  margin: 0 10px;
+  width: 5rem;
+  height: 5rem;
+  background-size: 5rem 5rem;
+  margin: 0 1rem;
 }
 
 .social-link.github {
@@ -258,48 +296,48 @@ figure {
 }
 
 .social a:hover {
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 8rem;
+  height: 8rem;
+  background-size: 8rem 8rem;
 }
 
 .form-email input {
-  border-color: gray;
+  border-color: var(--color-6);
   border-style: solid;
-  border-radius: 5px;
-  padding: 10px 20px 10px 25px;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 1rem 2.5rem;
   background-image: url('../Img/correo.png');
-  background-size: 15px 15px;
+  background-size: 1.5rem 1.5rem;
   background-repeat: no-repeat;
   background-position-y: center;
-  background-position-x: 5px;
+  background-position-x: 0.5rem;
 }
 
 .form-email button {
   display: block;
-  margin-top: 10px;
+  margin-top: 1rem;
   background: transparent;
-  color: #ffffff;
-  width: 100px;
-  border-radius: 5px;
-  padding: 10px 0; 
+  color: var(--color-3);
+  width: 10rem;
+  border-radius: 0.5rem;
+  padding: 1rem 0; 
 }
 
 .form-email button:hover {
-  background-color: #04113b;
+  background-color: var(--color-2);
 }
 
 .form-email button:active {
-  background-color: #ffffff;
-  color: #0579CC;
+  background-color: var(--color-3);
+  color: var(--color-1);
 }
 
 .form-email h3 {
-  font-family: 'Grandstander', sans-serif;
+  font-family: var(--letra-1);
 }
 
 .container {
-  width: 1000px;
+  width: 100rem;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -310,14 +348,14 @@ figure {
 
 .container-contacto {
   width: auto;
-  background-color: #0579CC;
+  background-color: var(--color-1);
 }
 
 .pie a {
-  color: #ffffff;
+  color: var(--color-3);
   text-decoration: none;
 }
 
 .pie a:hover {
-  color: #98CA3F;
+  color: var(--color-5);
 }
