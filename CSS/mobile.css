@@ -194,10 +194,21 @@ h2 {
 
 .social-link {
   margin: 0 0.5rem;
-  width: 2rem;
-  height: 2rem;
-  background-size: 2rem;
-  border: 0.2rem solid var(--color-3);
+}
+
+.social-link.github i {
+  font-size: 3rem;
+  color: var(--color-2);
+}
+
+.social-link.linkedin i {
+  font-size: 3rem;
+  color: var(--color-2);
+}
+
+.social-link.facebook i {
+  font-size: 3rem;
+  color: var(--color-2);
 }
 
 .pie {
