@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-1: #0579CC;
+  --color-2: #04113b;
+  --color-3: #ffffff;
+  --color-4: #0d1a27;
+  --color-5: #98CA3F;
+  --color-6: #808080;
+  --letra-1: 'Grandstander', 'Sans-Serif';
+  --letra-2: 'Roboto', 'Sans-Serif';
+  --letra-3: 'Fjalla One', Sans-Serif;
+}
+
+body {
+  font-family: var(--letra-2);
+  margin: 0 auto;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--letra-1);
+  color: var(--color-2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-3);
+  color: var(--color-2);
+  height: 3rem;
+}
+
+.header a {
+  color: var(--color-2);
+  font-weight: bold;
+  text-decoration: none;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.header ul li {
+  display: inline;
+}
+
+.hero {
+  background-color: var(--color-1);
+  border-radius: 1rem;
+  color: var(--color-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+}
+
+h1 {
+  color: var(--color-3);
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 strong {
+  color: var(--color-2);
+}
+
+.portafolio {
+  margin-top: 1rem;
+}
+
+h2 {
+  margin: 1rem 1rem;
+  color: var(--color-2);
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-1);
+  border: 0.2rem solid var(--color-1);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.proyecto-titulo {
+  color: var(--color-2);
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.proyecto-temas, .proyecto-fecha {
+  color: var(--color-2);
+}
+
+.proyecto-descripcion {
+  color: var(--color-2);
+  font-size: 1.1rem;
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.curso {
+  background-color: var(--color-1);
+  border: 0.2rem solid var(--color-1);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.curso-detalle {
+  background-color: var(--color-3);
+  border: 0.1rem solid var(--color-1);
+  border-radius: 0.5rem;
+  margin: 2rem 4rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+
+.curso-titulo {
+  margin: 0.5rem 0;
+}
+
+.curso-descripcion {
+  margin: 1rem;
+}
+
+.curso-url {
+  color: var(--color-1);
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  text-decoration: none;
+}
+
+.contacto {
+  background-color: var(--color-1);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto h3 {
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: var(--color-3);
+}
+
+.form-email {
+  margin-left: 1rem;
+}
+
+.form-email input {
+  border: 0.2rem solid var(--color-6);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-image: url('');
+  margin-bottom: 0.5rem;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  color: var(--color-3);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  margin: 0 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-size: 2rem;
+  border: 0.2rem solid var(--color-3);
+}
+
+.pie {
+  background-color: var(--color-4);
+  color: var(--color-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.pie p {
+  margin: 0 1rem;
+  font-size: 0.8rem;
+}
+
+.pie a {
+  text-decoration: none;
+  color: var(--color-5);
+}
