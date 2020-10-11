@@ -8,12 +8,12 @@
     <title>Portafolio Kevin Franco Ricardo</title>
     <link rel="icon" type="Image/png" href="Img/Favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100;400;700;900&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css"/>
+    <link rel="stylesheet" href="CSS/mobile.css"/>
   </head>
   <body class="body">
     <header class="header">
       <figure class="logo">
-        <img src="Img/Favicon.png" alt="Logo KFR" height="75 px"/>
+        <img src="" alt="Logo KFR"/>
       </figure>
       <nav class="menu">
         <ul>
@@ -34,38 +34,36 @@
         Hola! <br/> Soy <strong>Kevin Franco Ricardo</strong>,<br />
         <strong>Desarrollador Web</strong> en formación y un apasionado de la tecnología y las herramientas digitales.
       </h1>
-      <img class="hero-img" src="img/Foto_hero.jpg" width="150" height="210" alt="Imagen principal" />
+      <img class="hero-img" src="" alt="Imagen principal" />
     </section>
     <section id="portafolio" class="portafolio">
-      <div class="container">
-        <h2>Portafolio (Proyectos Destacados)</h2>
-        <article class="proyecto">
-          <div class="proyecto-detalles">
-            <h3 class="proyecto-titulo">Mi primera página Web</h3>
-            <h6 class="proyecto-temas">HTML / CSS</h6>
-            <p class="proyecto-fecha">
-            <small><strong>Fecha:</strong> 27/08/2020</small>
-            </p>
-            <p class="proyecto-descripcion">
-            El proyecto llamado "Portafolio" es la primera página web que he
-            diseñado en el marco del curso de Desarrollo Web Online dictado por el
-            profesor Leonidas Esteban en Platzi.
-            </p>
-          </div>
+      <h2>Portafolio (Proyectos Destacados)</h2>
+      <article class="proyecto">
+        <div class="container-proyecto">
+          <h3 class="proyecto-titulo">Mi primera página Web</h3>
+          <h6 class="proyecto-temas">HTML / CSS</h6>
+          <p class="proyecto-fecha">
+          <small><strong>Fecha:</strong> 27/08/2020</small>
+          </p>
           <figure class="proyecto-imageContainer">
-            <img class="proyecto-imagen" width="500" height="300" src="Img/Portafolio_web.png" />
+            <img class="proyecto-imagen" src="" />
           </figure>
-        </article>
-      </div>
+          <p class="proyecto-descripcion">
+          El proyecto llamado "Portafolio" es la primera página web que he
+          diseñado en el marco del curso de Desarrollo Web Online dictado por el
+          profesor Leonidas Esteban en Platzi.
+          </p>
+        </div>
+        
+      </article>
     </section>
-    <div class="container" id="container_cursos">
+    <div id="cursos" class="container-cursos">
       <h2 class="cursos-titulos">Cursos desarrollados</h2>
-      <section id="cursos" class="cursos">
+      <section class="cursos">
         <article class="curso">
           <figure class="curso-imageContainer">
             <img class="curso-imagen"
-              src="Img/Fundamentos_ing_software.jpg"
-              width="300"
+              src=""
               alt="Imagen alusiva del curso"
             />
           </figure>
@@ -81,7 +79,7 @@
         <article class="curso">
           <figure class="curso-imageContainer">
             <img class="curso-imagen"
-              src="Img/Git_GitHub.png"
+              src=""
               width="400"
               alt="Imagen representativa del curso"
             />
@@ -98,20 +96,18 @@
         </article>
       </section>
     </div>
-    <div class="container-contacto">
-      <section id="contacto" class="contacto">
-        <form action="/suscripcion/" class="form-email">
-          <h3>¿Creamos algo juntos?</h3>
-          <input type="text" placeholder="Déjame tu email" />
-          <button>Enviar</button>
-        </form>
-        <div class="social">
-          <a href="https://github.com/kefrari27" class="social-link github"></a>
-          <a href="https://www.linkedin.com/in/kevin-franco-ricardo-4a16505a/" class="social-link linkedin"></a>
-          <a href="https://www.facebook.com/kefrari" class="social-link facebook"></a>
-        </div>
-      </section>
-    </div>
+    <section id="contacto" class="contacto">
+      <form action="/suscripcion/" class="form-email">
+        <h3>¿Creamos algo juntos?</h3>
+        <input type="text" placeholder="Déjame tu email" />
+        <button>Enviar</button>
+      </form>
+      <div class="social">
+        <a href="https://github.com/kefrari27" class="social-link github"></a>
+        <a href="https://www.linkedin.com/in/kevin-franco-ricardo-4a16505a/" class="social-link linkedin"></a>
+        <a href="https://www.facebook.com/kefrari" class="social-link facebook"></a>
+      </div>
+    </section>
     <footer class="pie">
       <div>
         <p>Escuela de Desarrollo Web de <a href="https://platzi.com/">Platzi</a></p>
