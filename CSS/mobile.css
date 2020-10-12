@@ -1,3 +1,5 @@
+/*Configuración General de la página*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -20,6 +22,8 @@ html {
   --letra-3: 'Fjalla One', Sans-Serif;
 }
 
+/*Body*/
+
 body {
   font-family: var(--letra-2);
   margin: 0 auto;
@@ -34,6 +38,8 @@ h6 {
   font-family: var(--letra-1);
   color: var(--color-2);
 }
+
+/*Header*/
 
 .header {
   display: flex;
@@ -56,6 +62,17 @@ h6 {
   display: inline;
 }
 
+.logo img {
+  height: 3rem;
+}
+
+.menu a:active {
+  color: var(--color-1);
+  font-size: 1.2rem;
+}
+
+/*Sección Principal*/
+
 .hero {
   background-color: var(--color-1);
   border-radius: 1rem;
@@ -77,6 +94,14 @@ h1 strong {
   color: var(--color-2);
 }
 
+.container-imghero img {
+  height: 10rem;
+  margin: 0 2rem;
+  border-radius: 1rem;
+}
+
+/*Proyectos*/
+
 .portafolio {
   margin-top: 1rem;
 }
@@ -96,6 +121,12 @@ h2 {
   padding: 1rem;
 }
 
+.container-titulo {
+  background-color: var(--color-3);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
 .proyecto-titulo {
   color: var(--color-2);
   font-size: 1.2rem;
@@ -109,8 +140,17 @@ h2 {
 
 .proyecto-descripcion {
   color: var(--color-2);
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  margin-top: 1rem;
 }
+
+.proyecto-imageContainer img {
+  width: 29.6rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+}
+
+/*Cursos*/
 
 .cursos {
   display: flex;
@@ -122,6 +162,17 @@ h2 {
   border: 0.2rem solid var(--color-1);
   border-radius: 1rem;
   margin-bottom: 1rem;
+}
+
+.curso-imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.curso-imageContainer img {
+  width: 30rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
 }
 
 .curso-detalle {
@@ -149,6 +200,13 @@ h2 {
   margin: 1rem 0;
   text-decoration: none;
 }
+
+.curso-url:active {
+  background-color: var(--color-2);
+  color: var(--color-1);
+}
+
+/*Contacto*/
 
 .contacto {
   background-color: var(--color-1);
@@ -196,20 +254,17 @@ h2 {
   margin: 0 0.5rem;
 }
 
-.social-link.github i {
+.social a {
   font-size: 3rem;
   color: var(--color-2);
 }
 
-.social-link.linkedin i {
-  font-size: 3rem;
-  color: var(--color-2);
+.social a:active {
+  font-size: 4rem;
+  color: var(--color-3);
 }
 
-.social-link.facebook i {
-  font-size: 3rem;
-  color: var(--color-2);
-}
+/*Footer*/
 
 .pie {
   background-color: var(--color-4);
@@ -228,4 +283,8 @@ h2 {
 .pie a {
   text-decoration: none;
   color: var(--color-5);
+}
+
+.pie a:active {
+  color: var(--color-1);
 }
