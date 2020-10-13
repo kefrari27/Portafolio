@@ -85,7 +85,7 @@ h6 {
 
 h1 {
   color: var(--color-3);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 1rem;
 }
@@ -121,10 +121,18 @@ h2 {
   padding: 1rem;
 }
 
+.container-proyecto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-titulo {
   background-color: var(--color-3);
   border-radius: 1rem;
   padding: 1rem;
+  max-width: 42rem;
 }
 
 .proyecto-titulo {
@@ -150,18 +158,11 @@ h2 {
   border-radius: 1rem;
 }
 
-/*Cursos*/
-
-.cursos {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .curso {
   background-color: var(--color-1);
   border: 0.2rem solid var(--color-1);
   border-radius: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .curso-imageContainer {
@@ -170,7 +171,7 @@ h2 {
 }
 
 .curso-imageContainer img {
-  width: 30rem;
+  width: 28rem;
   border-radius: 1rem;
   margin-top: 1rem;
 }
@@ -182,6 +183,7 @@ h2 {
   margin: 2rem 4rem;
   padding: 1rem 0.5rem;
   text-align: center;
+  max-width: 41rem;
 }
 
 .curso-titulo {
@@ -230,7 +232,6 @@ h2 {
   border: 0.2rem solid var(--color-6);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
-  background-image: url('');
   margin-bottom: 0.5rem;
 }
 

@@ -1,0 +1,107 @@
+/*Header*/
+
+.header {
+  height: 5rem;
+}
+
+.logo img {
+  height: 5rem;
+}
+
+.menu a {
+  font-size: 1.6rem;
+}
+
+/*Sección Principal*/
+
+.hero {
+  height: 40rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container-imghero img {
+  height: 38rem;
+}
+
+/*Proyectos*/
+
+h2 {
+  font-size: 2rem;
+}
+
+.container-proyecto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.proyecto-imageContainer img {
+  width: 40rem;
+}
+
+.container-titulo {
+  margin-right: 1rem;
+}
+
+.proyecto-titulo {
+  font-size: 1.8rem;
+}
+
+.proyecto-temas, .proyecto-fecha {
+  font-size: 1.4rem;
+}
+
+.proyecto-descripcion {
+  font-size: 1.6rem;
+}
+
+/*Cursos*/
+
+.cursos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.curso {
+  min-width: 32rem;
+  max-width: 37.4rem;
+}
+
+.curso-titulo {
+  font-size: 1.8rem;
+}
+
+.curso-detalle {
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+/*Contacto*/
+
+.contacto h3 {
+  font-size: 1.6rem;
+}
+
+.social {
+  margin-right: 2rem;
+}
+
+.social a i {
+  font-size: 5rem;
+}
+
+.social a i:active {
+  font-size: 6rem;
+}
+
+/*Footer*/
+
+.pie p {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+}
