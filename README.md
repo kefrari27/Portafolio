@@ -4,7 +4,7 @@
 
 ![](https://res.cloudinary.com/kefrari27/image/upload/c_scale,w_150/v1602534445/Portafolio/Favicon_it7ppp.png)
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+![](https://img.shields.io/github/stars/kefrari27/portafolio.md.svg) ![](https://img.shields.io/github/forks/kefrari27/portafolio.md.svg) ![](https://img.shields.io/github/tag/kefrari27/portafolio.md.svg) ![](https://img.shields.io/github/release/kefrari27/portafolio.md.svg) ![](https://img.shields.io/github/issues/kefrari27/portafolio.md.svg) ![](https://img.shields.io/bower/kefrari27/portafolio.md.svg)
 
 PORTAFOLIO DE PROYECTOS
 =============
